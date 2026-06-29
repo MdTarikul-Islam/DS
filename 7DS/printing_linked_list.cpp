@@ -13,7 +13,7 @@ int main()
 {
     Node* head=new Node(10);
     Node* a=new Node(20);
-    Node* b=new Node(30);
+    Node* b=new Node(300);
     Node* c=new Node(40);
 
     head->next=a;
@@ -24,6 +24,18 @@ int main()
     // cout<<head->next->val<<endl;
     // cout<<head->next->next->val<<endl;
     // cout<<head->next->next->next->val<<endl; 
+
+    Node* tmp=head;
+    while(tmp!=NULL){
+        cout<<tmp->val<<endl;
+        tmp=tmp->next;
+    }
+     tmp=head;
+    while(tmp!=NULL){
+        cout<<tmp->val<<endl;
+        tmp=tmp->next;
+    }
+    
     
     return 0;
 }
