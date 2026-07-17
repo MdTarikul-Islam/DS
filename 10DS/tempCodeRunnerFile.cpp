@@ -1,1 +1,1 @@
-l2.clear();
+cout<<head->val<<endl;
